@@ -25,6 +25,7 @@ requirements:
     - numpy >=1.12  # [win]
     - psy-simple >=1.2.0
     - psyplot >=1.2.0
+    - xarray !=0.13.0
 
 test:
   requires:
