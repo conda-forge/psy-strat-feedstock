@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 0
+  number: 1
   script: python -m pip install . --no-deps --ignore-installed -vvv
   skip: true  # [py == 27]
 
@@ -39,7 +39,7 @@ test:
 
 about:
   home: https://github.com/Chilipp/psy-strat
-  license: GPLv2
+  license: GPLv2-only
   license_family: GPL2
   license_file: LICENSE
   summary: 'Python package for creating stratigraphic diagrams'
